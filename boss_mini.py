@@ -48,4 +48,5 @@ while p_hp > 0 and b_hp > 0:
     if b_hp > 0:
         p_hp -= 10
 
-print("Game Over!")
+if p_hp <= 0:
+    print("Game Over!")
